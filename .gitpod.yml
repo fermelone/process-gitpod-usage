@@ -4,10 +4,9 @@ image: gitpod/workspace-python-3.10
 # List of tasks to run on workspace start
 tasks:
   - name: Setup Python Environment
-    init: |
-      python -m pip install --upgrade pip
-      pip install -r requirements.txt
     command: |
+      pip install -r requirements.txt
+      clear
       echo "Python environment ready!"
       echo "Try running: python process_usage.py your_exported_usage.csv"
 
