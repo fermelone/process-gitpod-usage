@@ -9,6 +9,9 @@ tasks:
       clear
       echo "Python environment ready!"
       echo "Try running: python process_usage.py your_exported_usage.csv"
+      echo "-------------------------"
+      echo "It will turn your usage report into a CSV with the following columns:"
+      echo "Date | Name (username) | Repo | Duration (minutes)"
 
 # VS Code extensions that are helpful for Python development
 vscode:
